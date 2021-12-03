@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Fitness with Caitlin</title>
+    <link rel="icon" href="C:\Users\tanca\Desktop\progress pics\gymicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<div class="header">
+    <img src="C:\Users\tanca\Desktop\progress pics\train hard.png" class="logo" alt="gym logo" />
+    <h1>Fitness with Caitlin</h1>
+</div>
+
+<body>
+
+<ul id="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="myjourney.html">My Journey</a></li>
+    <li><a href="nutrition.html">Nutrition</a>
+    <li><a href="workouts.html">Workouts</a>
+        <ul>
+            <li><a href="legs.html">Legs</a></li>
+            <li><a href="arms.html">Arms</a></li>
+            <li><a href="back.html">Back</a></li>
+            <li><a href="chest.html">Chest</a></li>
+            <li><a href="cardio.html">Cardio</a></li></li>
+        </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<h1>My Blog</h1>
+<br>
+<main>
+    <section>
+        <h2>My Current Workout Split</h2>
+        <br>
+        <p class="tab" line-height="15px"> Currently, I am trying to bulk to increase overall muscle mass and strength. For all of these days, I do as many neutral and wide grip pull-ups as I can. </p>
+      <br>
+        <ul class ="tab" class="circle">
+            <li>Day 1: Legs- Quad Focused</li>
+            <li>Day 2: Back</li>
+            <li>Day 3: Legs- Glute Focused</li>
+            <li>Day 4: Chest</li>
+            <li>Day 5: Legs- Heavy sets</li>
+        </ul>
+
+    </section>
+
+
+
+<br>
+
+
+<h2>My Fitness Essentials </h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:\Users\tanca\Desktop\blog\straps.jpg" alt="green straps" width="320" height="240">
+            </div>
+            <div class="card-body">
+                <p class="card-text"> <span style="color:black"> Calling all people with low grip strength and/or sweaty hands!! This one is for you. I bought the Gymreapers straps from Amazon, and it has changed how I train in the gym. Pull ups and deadlifting became easier as I could getter a better hold of the bars. Whenever I do my deadlift one rep max, I always use straps to ensure that I don't drop the barbell. </span></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:\Users\tanca\Desktop\blog\hipthrust pad.jpg" alt="hipthrust pad" width="320" height="240">
+            </div>
+            <div class="card-body">
+                <p class="card-text"> <span style="color:black">Hip thrusts will begin to hurt and cause bruising as you go heavier in weight. I bought the Power Guidance Hip Thrust Pad in black from Amazon and it has been my favorite purchase yet. I have been able to comfortably lift the weight when using this and I refuse to do hip thrusts without this. You can use a sweatshirt as a substitute, but it might not provide as much cushioning. </span></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:\Users\tanca\Desktop\blog\converse.jpg" alt="blue lowtop converse" width="320" height="240">
+            </div>
+            <div class="card-body">
+                <p class="card-text"> <span style="color:black"> Leg day would not be leg day if I wasn't wearing my beloved Converse. They allow for full mobility because they are flat on the bottoms, you have better balance - these are the perfect shoes for destroying legs! </span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Supplements I use </h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:\Users\tanca\Desktop\blog\c4.jpg" alt="C4 preworkout" width="320" height="240">
+            </div>
+            <div class="card-body">
+                <p class="card-text"> <span style="color:black">When I am low on energy, I know that a scoop of C4 will do be right. I find that after taking pre-workout, I am more focused in the gym, and I have more energy. Use pre-workout with caution so that you do not build a tolerance or dependence.   </span></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:\Users\tanca\Desktop\blog\protein powder.webp" alt="C4 preworkout" width="320" height="240">
+            </div>
+            <div class="card-body">
+                <p class="card-text"> <span style="color:black">For protein powder, I have recently been using Orgain's Organic Protein Powder. The flavor is chocolate and smooth and I love to mix it with oat milk for the complete vegan smoothie (I'm not vegan, but I like to be sometimes).    </span></p>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<h1>Post a Comment!</h1>
+<section id="app">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+</body>
+
+
+<div class="clearing"></div>
+<div class="copyright-wrap">
+    <div class="wrap">
+        <div class="content">
+            <p> &copy; Caitlin D'Souza, 2021 | Terms of Use | Privacy Statement </p>
+        </div>
+    </div>
+</div>
+
+</html>
