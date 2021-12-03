@@ -5,7 +5,8 @@ GLOBALS CLASSES
 body{font-family:"Garamond";
     font-size:14px;
     color:white;
-    background:url(../images/bg1.jpg);}
+    background:#A76565
+}
 header img{
     float:left;
 }
